@@ -23,6 +23,6 @@
  * **README.md**: Arquivo de documentação do projeto.
 
  * ### Como funciona:
- * 1. **Entrada da Mensagem**: O usuário insere a mensagem que deseja criptografar.
- * 2. **Aplicação do Algoritmo**: A mensagem é processada por um algoritmo de criptografia, que pode ser simétrico (mesma chave para criptografar e descriptografar).
- * 3. **Geração da Mensagem Criptografada**: O algoritmo transforma a mensagem original em um formato codificado.# decodificador
+ * **Entrada da Mensagem**: O usuário insere a mensagem que deseja criptografar.
+ * **Aplicação do Algoritmo**: A mensagem é processada por um algoritmo de criptografia, que pode ser simétrico (mesma chave para criptografar e descriptografar).
+ * **Geração da Mensagem Criptografada**: O algoritmo transforma a mensagem original em um formato codificado.# decodificador
