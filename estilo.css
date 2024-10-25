@@ -1,0 +1,96 @@
+@import url(./variaveis.css);
+
+.cabecalho {
+	/* border: 1px solid red; */
+	background: var(--rosa-escuro);
+	padding: 24px 100px;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem;
+	gap: 4rem;
+	padding: 2rem;
+}
+
+/* .text__area-entrada {
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+} */
+
+.text__area-saida {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.text__area {
+	font-size: 1.5em;
+	width: 645px;
+	height: 230px;
+	/* border: 1px solid yellow; */
+	resize: none;
+	outline: none;
+	color: var(--rosa-escuro);
+	padding: 1rem;
+}
+
+::placeholder {
+	color: var(--rosa-escuro);
+}
+
+.mensagem {
+	padding: 1rem;
+	text-align: center;
+	width: 320px;
+	height: 400px;
+	resize: none;
+	outline: none;
+	font-size: 1.5em;
+	color: var(--rosa-escuro);
+	box-shadow: 10px 10px 20px -7px rgba(0, 0, 0, 0.75);
+	border-radius: 20px;
+	border: 1px solid var(--rosa-escuro);
+	background: none;
+}
+
+.informacao {
+	background: url(../!.svg) no-repeat left;
+	padding: 2.6rem;
+	color: var(--rosa-escuro);
+}
+
+.botoes {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	gap: 24px;
+}
+
+.botao {
+	width: 310px;
+	height: 67px;
+	border: 1px solid var(--rosa-escuro);
+	border-radius: 20px 10px;
+}
+
+.texto__rodape {
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	font-size: 1em;
+	position: absolute;
+	bottom: 0;
+	padding: 0.625rem;
+	border-top: 1px solid var(--rosa-escuro);
+	color: var(--rosa-escuro);
+}
+
+.botao__copiar {
+	display: none;
+}
