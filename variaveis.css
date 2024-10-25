@@ -1,0 +1,46 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root {
+  --vinho: #6c1312;
+  --cinza: #383337;
+  --preto: #000000;
+  --rosa: #c97a98;
+  --vinho2: #902c35;
+  --fonte-principal: 'Inter';
+}
+
+
+*{
+  background: var(--preto);
+  font-family: var(--fonte-principal);
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+  margin: 0;
+  padding: 0;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Raleway:wght@400;500;700&display=swap');
+
+:root {
+	--bg-azul: #EAF2FD;
+	--bg-cinza: #EDEDED;
+	--branco: #FFFFFF;
+	--cinza: #4D4D4D;
+	--letras: #464646;
+	--peso-500: 500;
+	--raleway: Raleway, sans-serif;
+	--rosa-claro: #FFF4E0;
+	--rosa-escuro: #B46060;
+	--rosa-medio: #FFBF9B;
+	--azul: #2A7AE4;
+}
+
+* {
+	border: 0;
+	box-sizing: border-box;
+	color: var(--letras);
+	font-family: var(--raleway);
+	margin: 0;
+	padding: 0;
+}

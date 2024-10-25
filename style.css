@@ -1,0 +1,479 @@
+@import url(./variaveis.css);
+
+/* .logo__alura{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+
+.text__area{
+    position: absolute;
+    width: 680px;
+    height: 490px;
+    left: 100px;
+    top: 168px;
+    font-size: 32px;
+    line-height: 150%;
+    border: none;
+    resize: none;
+    outline: none;
+    text-transform: lowercase;
+} */
+    /* SCROLL
+    .text__area::-webkit-scrollbar {
+        width: 10px;
+        background-color: var(--cinza);
+    }
+    .text__area::-webkit-scrollbar-thumb {
+        background-color: var(--vinho);
+        border-radius: 50px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: var(--vinho2);
+        
+    } 
+
+.informacao {
+    position: absolute;
+    width: 252px;
+    height: 18px;
+    left: 100px;
+    top: 680px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+}
+
+.botao__criptografar{
+    position: absolute;
+    width: 310px;
+    height: 67px;
+    left: 100px;
+    top: 720px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    gap: 24px;
+    font-size: 32px;
+    border: 1px solid var(--vinho);
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    cursor: pointer;
+}
+
+.botao__criptografar:hover{
+
+        background-color: var(--vinho);
+        font-size: 38px;
+    }
+
+.botao__descriptografar{
+    position: absolute;
+    width: 310px;
+    height: 67px;
+    left: 450px;
+    top: 720px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    gap: 24px;
+    font-size: 32px;
+    border: 1px solid var(--vinho);
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    cursor: pointer;
+
+}
+.botao__descriptografar:hover{
+
+        background-color: var(--vinho);
+        font-size: 38px;
+    }
+.mensagem {
+    background-image: url(xi2.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 480px;
+    height: 800px;
+    left: 1070px;
+    top: 40px;
+    font-size: 32px;
+    border: 1px solid var(--vinho);
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    transform: translateX(-50%);
+    text-align: center;
+    resize: none;
+    outline: none;
+}
+    /*SCROLL*/
+    /*
+    .mensagem::-webkit-scrollbar {
+        width: 10px;
+        background-color: var(--cinza);
+    }
+    .mensagem::-webkit-scrollbar-thumb {
+        background-color: var(--vinho);
+        border-radius: 50px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: var(--vinho2);
+        
+    }
+
+.botao__copiar{
+    position: absolute;
+    width: 310px;
+    height: 67px;
+    left: 910px;
+    top: 720px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    border: 1px solid var(--vinho);
+    border-radius: 24px;
+    background-image: url(cody.gif);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 32px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.botao__copiar:hover{
+    font-size: 38px;
+}
+
+.texto__rodape{
+    background: transparent;
+    position: absolute;
+    margin-top: 835px;
+    font-size: 20px;
+    max-width: 940px;
+    text-align: center;
+    left: 400px;
+}
+
+@media (max-width: 768px) {
+    *::-webkit-scrollbar {
+        width: 10px;
+        background-color: var(--cinza);
+    }
+    *::-webkit-scrollbar-thumb {
+        background-color: var(--vinho);
+        border-radius: 50px;
+    }
+    ::-webkit-scrollbar-thumb:active {
+        background-color: var(--vinho2);
+        
+    }
+
+    .logo__alura{
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        left: 40px;
+        top: 73.42px;
+    }
+
+    .text__area{
+        position: absolute;
+        width: 688px;
+        height: 300px;
+        left: 40px;
+        top: 240px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 150%;
+    }
+*/
+    /*SCROLL*/
+/*
+.text__area::-webkit-scrollbar {
+    width: 10px;
+    background-color: var(--cinza);
+}
+
+.text__area::-webkit-scrollbar-thumb {
+    background-color: var(--vinho);
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--vinho2);
+    
+}
+
+    .informacao{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+        position: absolute;
+        left: 40px;
+        top: 590px;
+    }
+
+    .botao__criptografar{
+        position: absolute;
+        width: 310px;
+        height: 67px;
+        left: 50px;
+        top: 620px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        gap: 24px;
+        font-size: 32px;
+        border: 1px solid var(--vinho);
+        border-radius: 24px;
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+    }
+
+    .botao__descriptografar{
+        position: absolute;
+        width: 310px;
+        height: 67px;
+        left: 400px;
+        top: 620px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        gap: 24px;
+        font-size: 32px;
+        border: 1px solid var(--vinho);
+        border-radius: 24px;
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+    }
+
+    .mensagem {
+        background-image: url(xi.jpg);
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 480px;
+        height: 480px;
+        left: 400px;
+        top: 700px;
+        font-size: 32px;
+        border: 1px solid var(--vinho);
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 32px;
+        transform: translateX(-50%);
+        text-align: center;
+        resize: none;
+        outline: none;
+    }
+    
+    .botao__copiar{
+        position: absolute;
+        width: 310px;
+        height: 67px;
+        left: 250px;
+        top: 1100px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+
+        border: 1px solid var(--vinho);
+        border-radius: 24px;
+        background-image: url(cody.gif);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-size: 32px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .texto__rodape{
+        background: transparent;
+        position: absolute;
+        margin-top: 1200px;
+        font-size: 20px;
+        max-width: 940px;
+        text-align: center;
+        left: 100px;
+    }
+}
+
+@media (max-width: 390px){
+    
+    .logo__alura{
+        position: absolute;
+        top: 40px;
+        bottom: 25%;
+    }
+
+    .text__area{
+        position: absolute;
+        width: 310px;
+        height: 300px;
+        left: 40px;
+        top: 150px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 150%;
+    }
+*/
+    /*SCROLL*/ /*
+.text__area::-webkit-scrollbar {
+    width: 10px;
+    background-color: var(--cinza);
+}
+
+.text__area::-webkit-scrollbar-thumb {
+    background-color: var(--vinho);
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--vinho2);
+    
+}
+
+    .informacao{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+        position: absolute;
+        left: 40px;
+        top: 490px;
+    }
+
+    .botao__criptografar{
+        position: absolute;
+        width: 305px;
+        height: 67px;
+        left: 40px;
+        top: 520px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        gap: 24px;
+        font-size: 32px;
+        border: 1px solid var(--vinho);
+        border-radius: 24px;
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+    }
+
+    .botao__descriptografar{
+        position: absolute;
+        width: 305px;
+        height: 67px;
+        left: 40px;
+        top: 610px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        gap: 24px;
+        font-size: 32px;
+        border: 1px solid var(--vinho);
+        border-radius: 24px;
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+    }
+
+    .mensagem {
+        background-image: url(xi.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    width: 340px;
+    height: 480px;
+    left: 350px;
+    top: 710px;
+    margin-left: -170px;
+    font-size: 32px;
+    border: 1px solid var(--vinho);
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    transform: translateX(-50%);
+    text-align: center;
+    resize: none;
+    outline: none;
+    }
+    
+    .botao__copiar{
+        position: absolute;
+        width: 290px;
+        height: 67px;
+        left: 40px;
+        top: 1100px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+
+        border: 1px solid var(--vinho);
+        border-radius: 24px;
+        background-image: url(cody.gif);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-size: 32px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .texto__rodape{
+        background: transparent;
+        position: absolute;
+        margin-top: 1200px;
+        font-size: 20px;
+        max-width: 940px;
+        text-align: center;
+        left: 20px;
+    }
+}*/
